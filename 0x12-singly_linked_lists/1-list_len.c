@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include "lists.h"
+
 /**
  * list_len: is a function to give the length of a linked list_len
  * *h: a pointer to the head of the list 
