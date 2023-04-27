@@ -3,7 +3,7 @@
  * *h: a pointer to the head of the list 
  * 
  * return: the number of elements
- **/
+ */
  
  
 
