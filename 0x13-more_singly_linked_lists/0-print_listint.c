@@ -8,12 +8,16 @@
 * return : elements of the list printed
 * /
 
-
-size_t print_listint(const listint_t *h){
-listint_t *temp;
-temp = h;
-while (temp != NULL){
-temp = temp -> next ;
-printf (" %d \n",temp -> data);
-}
+size_t print_listint (const listint_t * h)
+{
+  const listint_t *temp;
+  size_t count = 0;
+  temp = h;
+  while (temp != NULL)
+    {
+      printf (" %d \n", temp->n);
+      temp = temp->next;
+      count ++;
+    }
+    return count;
 }
