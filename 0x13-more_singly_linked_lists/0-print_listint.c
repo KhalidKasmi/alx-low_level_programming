@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
-* print_listint to print elements of a linked list 
-* @h : as an argument to point on the head 
+* print_listint - print elements of a linked list 
+* @h :  linked list of type listint_t to traverse
 *
 * return : elements of the list printed
 * /
